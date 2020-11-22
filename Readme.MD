@@ -1,5 +1,5 @@
 An FT-891 CAT Control Emulator Library by WA2FZW
-Version 1.1
+Version 1.2
 
 This library provides a means of adding CAT (Computer Aided Transceiver)
 functionality to Arduino (or other microprocessor) based applications.
@@ -13,3 +13,8 @@ and Jim (G3ZQC).
 
 Modified in Version 1.1 (9/26/19) to allow the library to optionally handle
 transmit/receive switching optional.
+
+Modified in Version 1.2 to change the return type of the GetTX method from
+bool to uint8_t so one cantell if the transmitter is on due to manual control
+or CAT control.
+ 
