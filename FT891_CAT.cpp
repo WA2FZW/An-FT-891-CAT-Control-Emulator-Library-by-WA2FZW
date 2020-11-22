@@ -18,7 +18,8 @@
  *
  *	Modified 11/22/2020 - Version 1.2
  *
- *		Changed the return type of the GetTX method from bool to uint8_t/
+ *		Changed the return type of the GetTX method from bool to uint8_t so one can
+ *		tell if the transmitter is on due to manual control or CAT control.
  */
 
 #include <Arduino.h>							// Basic Arduino definitions
