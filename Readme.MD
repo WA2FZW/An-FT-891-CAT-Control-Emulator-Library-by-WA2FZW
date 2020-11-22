@@ -11,10 +11,10 @@ of the popular microprocessors.
 This was originally developed for a digital VFO project by me, Glenn (VK3PE)
 and Jim (G3ZQC).
 
-Modified in Version 1.1 (9/26/19) to allow the library to optionally handle
-transmit/receive switching optional.
+Modified in Version 1.1 (9/26/2019) to allow the library to optionally handle
+transmit/receive switching optionally.
 
-Modified in Version 1.2 to change the return type of the GetTX method from
+Modified in Version 1.2 (11/22/2020) to change the return type of the GetTX method from
 bool to uint8_t so one cantell if the transmitter is on due to manual control
 or CAT control.
  
