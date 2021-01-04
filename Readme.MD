@@ -15,6 +15,10 @@ Modified in Version 1.1 (9/26/2019) to allow the library to optionally handle
 transmit/receive switching optionally.
 
 Modified in Version 1.2 (11/22/2020) to change the return type of the GetTX method from
-bool to uint8_t so one cantell if the transmitter is on due to manual control
+bool to uint8_t so one can tell if the transmitter is on due to manual control
 or CAT control.
+
+
+Update 01/04/2020 - Somehow the change of the return type of the GetTX function
+never got changed in the header file. It is now fixed.
  
