@@ -153,7 +153,7 @@ uint32_t GetFA  ();								// Get VFO-A frequency
 uint32_t GetFB  ();								// Get VFO-B frequency
 uint8_t	 GetMDA ();								// Get VFO-A mode
 uint8_t	 GetMDB ();								// Get VFO-B mode
-bool	 GetTX  ();								// Get transmit/receive status
+uint8_t	 GetTX  ();								// Get transmit/receive status
 bool	 GetST  ();								// Get Split mode
 
 
