@@ -21,4 +21,7 @@ or CAT control.
 
 Update 01/04/2020 - Somehow the change of the return type of the GetTX function
 never got changed in the header file. It is now fixed.
- 
+
+Update 06/01/2021 - Fixed a bug in the handling of the "IF', "OI" amd "MD"
+status requests. The mode was not bsing handled properly if it was greater
+than 9. Thanks to Dick MacDonald for finding the problem!
